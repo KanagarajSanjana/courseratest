@@ -2,15 +2,36 @@
 <head>
 	<title>Sample Program</title>
 	<style>
+		*{box-sizing: border-box;
+		}
 		h1{
 			text-align:center;
 		}
-		
+		#p1{
+			background-color: red;
+			width:50px;
+			height:50px;
+			padding: 10px;
+			margin:5px;
+			border:100px;
+		}
+		#content{
+            background-color: blue;
+            height:220px;
+            width:220px;
+            margin:50px;
+            border:100px;
+            padding: 50px;
+            float:right;
+            clear:left;
+            overflow:auto;
+		}
+	</style>
 </head>
 
 	<body>
 <h1>Box Model!</h1>
 <p id="p1">   </p>
-
+<div id="content"> This is a box model</div>
 </body>
 </html>
