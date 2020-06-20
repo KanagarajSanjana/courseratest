@@ -1,0 +1,202 @@
+body{
+	background-color:maroon;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color:black;
+	margin:0px;
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left:20px;
+}
+
+a:link, a:visited {
+  color:red;
+  text-decoration:none;
+  cursor: auto;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+	color:black;
+	background-color:#90EE90;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-weight: bold;
+}
+
+#p1{
+	text-align: center;
+	font-size: 25px;
+	color:black;
+	margin-top: 4px;
+	font-weight: bolder;
+}
+
+#p2{
+	text-align: center;
+	font-size: 25px;
+	color:black;
+	margin-top: 4px;
+	font-weight: bolder;
+}
+
+#p3{
+	text-align: center;
+	font-size: 25px;
+	color:black;
+	margin-top: 4px;
+	font-weight: bolder;
+}
+
+#d1{
+	background-color: #DCDCDC;
+}
+#d2{
+	background-color: #DCDCDC;
+}
+#d3{
+	background-color: #DCDCDC;
+}
+.s1{
+	font-size: 18px;
+	color: maroon;
+	text-align: center;
+	padding: 2px;
+}
+
+.s2{
+	font-size: 18px;
+	color: maroon;
+	text-align: center;
+	padding: 2px;
+}
+
+.s3{
+	font-size: 18px;
+	color: maroon;
+	text-align: center;
+	padding: 2px;
+}
+
+
+/** For mobile or xs**/
+@media(max-width: 767px)
+{
+	.col-sm-1,.col-sm-2,.col-sm-3
+	{
+		float:left;
+		border:7px solid black;
+		height:300px;
+		margin:20px;
+		margin-right: 40px;
+	}
+	.col-sm-1
+	{
+		width:90%;
+	}
+	.col-sm-2
+	{
+		width:90%;
+	}
+	.col-sm-3
+	{
+		width:90%;
+	}
+}
+
+
+
+/**For tablet or sm**/
+@media(min-width: 768px) and (max-width:991px)
+{
+	.col-md-1,.col-md-2,.col-md-3
+	{
+	border:7px solid black;	
+	margin:20px;
+	height: 300px;
+	}
+	.col-md-1
+	{
+		width:96%;
+		margin-right:3%;
+		margin-bottom: 3%
+	}
+	.col-md-2
+	{
+		width:96%;
+		margin-right:3%;
+		margin-bottom: 3%
+	}
+	.col-md-3
+	{
+		width:96%;
+		margin-right:3%;
+		margin-bottom: 3%
+	}
+}
+
+/**for large or md **/
+@media(min-width:992px)
+{  
+    .col-lg-1,.col-lg-2,.col-lg-3
+    {
+	float:left;
+	border:7px solid black;
+	margin: 20px;
+	height:300px;
+    }
+	.col-lg-1
+	{
+		width:97%;
+		margin-left: 20px;
+		
+	}
+	.col-lg-2
+	{
+		width:97%;
+		
+	}
+	.col-lg-3
+	{
+		width:97%;
+	}
+}
